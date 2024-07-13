@@ -1,0 +1,122 @@
+.featured-projects {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+.heading-featured{
+   font-size: 30px;
+    font-weight: light;
+    margin-bottom: 40px;
+    text-align: center;
+    color: #35374b;
+
+  @media (max-width: 1270px) {
+    font-size: 50px;
+  }
+  @media (max-width: 1060px) {
+    font-size: 40px;
+  }
+  @media (max-width: 925px) {
+    font-size: 40px;
+  }
+  @media (max-width: 835px) {
+    font-size: 40px;
+  }
+  @media (max-width: 730px) {
+    font-size: 40px;
+  }
+  @media (max-width: 620px) {
+    font-size: 40px;
+  }
+  @media (max-width: 527px) {
+    font-size: 35px;
+  }
+  @media (max-width: 415px) {
+    font-size: 30px;
+  }
+}
+
+.project-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.project-image {
+  position: relative;
+}
+
+.project-image img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.featured-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: #d4af37;
+  color: white;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.project-price {
+  font-weight: bold;
+  color: #d4af37;
+  padding: 10px;
+}
+
+.project-title {
+  padding: 0 10px;
+}
+
+.project-location {
+  padding: 0 10px;
+  color: #666;
+}
+
+.project-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.see-details-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.social-buttons {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.social-buttons button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 50%;
+  background-color: #d4af37;
+  color: white;
+  cursor: pointer;
+}

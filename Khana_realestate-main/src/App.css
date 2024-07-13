@@ -1,0 +1,59 @@
+.app {
+  font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.main-content {
+  display: flex;
+  gap: 20px;
+}
+
+.property-details {
+  flex: 2;
+}
+
+.sidebar {
+  flex: 1;
+}
+
+.btn-primary {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #d4af37;
+  border: 1px solid #d4af37;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.property-image {
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #d4af37;
+  color: white;
+  padding: 20px;
+}
